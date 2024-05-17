@@ -1,0 +1,173 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+
+.post2 {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 0px;
+}
+
+.post__body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post__body>img {
+  border-radius: 20px;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+}
+
+.post__footer__icon:hover {
+  cursor: pointer;
+  color: var(--twitter-color);
+}
+
+.post__footer__icon__active {
+  color: #50b7f5;
+}
+
+.post__footer__icon__active:hover {
+  cursor: pointer;
+}
+
+.post__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.post__headerText>h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post__headerText2>h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+
+.post__headerText2>div {
+  font-weight: 630;
+  font-size: 14px;
+  color: gray;
+}
+.post__headerText2>span {
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(146, 145, 145);
+}
+
+.post__headerText3 {
+  display: flex;
+  align-items: center;
+}
+
+.post__headerText3>h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post__headerText3>span {
+  font-weight: 630;
+  font-size: 15px;
+  color: rgb(124, 123, 123);
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.username{
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(124, 123, 123);
+  padding-left: 4px;
+}
+
+.date {
+  font-weight: 630;
+  font-size: 13px;
+  color: gray;
+  margin-top: 0px;
+}
+
+.post___header {
+  margin-left: 5px;
+  margin-top: -6px;
+}
+.post-header{
+  margin-top: -54px;
+  margin-left: 5px;
+}
+
+.post__header2 {
+  padding-right: 235px;
+}
+
+.empty{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.post__badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.post__avatar {
+  padding: 20px;
+}
+
+.post__avatar2 {
+  padding: 20px;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+}
+
+.input-comment {
+  background-color: var(--twitter-background);
+  border: none;
+  border-radius: 60px;
+  padding: 9px;
+  padding-right: 80px;
+  outline: none;
+}
+
+.send-icon {
+  margin-left: 10px;
+  margin-top: 16px;
+  color: #50b7f5;
+  cursor: pointer;
+}
+
+.no-comments {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+
+.none{
+   background-color: red;
+}
