@@ -8,12 +8,7 @@ importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js')
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 firebase.initializeApp({
-    apiKey: "AIzaSyATWk7AbDXVreGLZ958UjyWxZ5jrVx1UKU",
-    authDomain: "twitter-clone-b58e9.firebaseapp.com",
-    projectId: "twitter-clone-b58e9",
-    storageBucket: "twitter-clone-b58e9.appspot.com",
-    messagingSenderId: "253472742662",
-    appId: "1:253472742662:web:8473928e3e39f266da5287"
+    // paste your firebase auth details 
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
