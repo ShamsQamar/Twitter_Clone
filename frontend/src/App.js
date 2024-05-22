@@ -46,7 +46,7 @@ function App() {
     const permission = await Notification.requestPermission();
     if (permission === 'granted') {
       const token = await getToken(messaging, {
-        vapidKey: "BJClitIqy9po35WmQx_oelZ1dOpKDlwnwKu7NsPu-siYsZPcWmW30iPIlzdjbnz8KXrGGUO1uXdp6OgMGGA3UdY"
+        vapidKey: "put your vapidKey here"
       })
       // console.log('token gen', token);
       setLoggedInUserToken(token);
